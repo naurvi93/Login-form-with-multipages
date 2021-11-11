@@ -1,0 +1,74 @@
+fieldset input [type="text"]{
+    padding:5px;
+}
+
+.email input{
+    padding:5px;
+    margin-left: 25px;
+}
+.password input{
+    padding: 5px;
+}
+.row2{
+    margin-top: 1.5rem;
+}
+
+.name input{
+    padding:5px;
+
+}
+.phone input{
+    padding:5px;
+    margin-left: 27px;
+}
+.street input{
+    padding:5px;
+    margin-left: 40px;
+}
+
+.city input{
+    padding:5px;
+    margin-left:37px;
+}
+
+.country select{
+    padding: 5px;
+    margin-left: 25px;
+    width: 11.5rem;
+}
+
+.website input{
+    padding:5px;
+    margin-left: 25px;
+}
+
+.row3{
+    margin-top: 1.5rem;
+}
+
+.birthday select{
+    padding:5px;
+    margin-left:20px;
+}
+.birthday input{
+    padding:5px;
+    margin-left: 15px;
+}
+.nationality select{
+    padding:5px;
+    width: 12rem;
+    margin-left:0.3rem;
+}
+
+.children input{
+    margin-left: 26px;
+}
+
+.gender input{
+    margin-left: 1.8rem;
+}
+
+
+.row4{
+    margin-top: 1.5rem;
+}

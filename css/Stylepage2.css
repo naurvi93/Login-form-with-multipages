@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.table-1{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.table-1 td , .table-1 th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table-1 th{
+    background-color:#FF416C;
+    color: #ffffff;
+}
+
+.table-1 tbody tr:nth-child(even){
+    background-color: rgb(250, 233, 236);
+}
+
+
+
+/***Table-2 Start****/
+.table-2{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5rem;
+    border:1px solid #ddd;
+
+}
+.table-2 td , .table-2 th{
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+
+    text-align: center;
+    font-size: 16px;
+}
+
+.table-2 th{
+    background-color:rgb(42, 42, 102);
+    color: #ffffff;
+}
+
+.table-2 tbody tr:nth-child(even){
+    background-color: #f5f5f5
+}
+/***Table-2 End****/
+
+/*****Table-3 Starts****/
+.table-3{
+    border-spacing: 0.5rem;
+    margin-top: 5rem;
+    border:1px solid #ddd;
+}
+
+.table-3 td:nth-child(1) { background:hsl(150, 50%, 50%);}
+.table-3 td:nth-child(2) { background: hsl(160, 60%, 50%) ;}
+.table-3 td:nth-child(3) { background: hsl(170, 70%, 50%); }
+.table-3 td:nth-child(4) { background: hsl(180, 80%, 50%); }
+.table-3 td:nth-child(5) { background: hsl(190, 90%, 50%); }
+.table-3 td:nth-child(6) { background: hsl(200, 99%, 50%); }
+/*****Table-3 Ends*****/
+
+/***Responsive for table-1 only***/
+ @media(max-width:650px){
+     .table-1 thead{
+         display: none;
+     }
+
+     .table-1 , .table-1 tbody , .table-1 tr , .table-1 td{
+         display: block;
+         width: 100%;
+     }
+     .table-1 tr{
+         margin-bottom: 15px;
+     }
+     .table-1 td{
+         text-align: right;
+         padding-left: 50%;
+         position: relative;
+     }
+     .table-1 td::before{
+         content: attr(data-label);
+         position: absolute;
+         left: 0;
+         width:50%;
+         padding-left: 15px;
+         font-size: 15px;
+         font-weight: bold;
+         text-align: left;
+     }
+
+ }
+.pagination{
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+ .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}

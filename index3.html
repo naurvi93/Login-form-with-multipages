@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form Type 1 </title>
+    <link rel="stylesheet" href="./css/inputforms.css">
+</head>
+<body>
+    <div class="regform"><h1>Registration Form</h1>
+        <div class="main">
+        <form>
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text" name="first_name" placeholder="First Name"><br>
+                <label class="firstlabel">First Name</label>
+                <input class="lastname" type="text" name="last_name" placeholder="Last Name">
+                <label class="lastlabel">Last Name</label>
+
+            </div>
+
+            <h2 class="name">Company</h2>
+            <input class="company" type="text" name="company">
+            <h2 class="name">Email</h2>
+            <input class="email" type="text" name="email">
+
+            <h2 class="name">Phone</h2>
+            <input class="code" type="text" name="area-code">
+            <label class="area-code">Area Code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+            <h3>Payment Modes</h3>
+            <div class="payment-method">
+                <label for="card" class="method-card">
+                    <div class="card-logos">
+                        <img src="./imgs/visa.png" alt="visa">
+                        <img src="./imgs/master-card.png">
+                    </div>
+                    <div class="radio-input">
+                        <input id="card" type="radio" name="payment">
+                        Pay Rs 340.00 with credit card
+                      </div>
+                </label>
+                <label for="paytm" class="method-paytm">
+                    <img src="./imgs/paytm.jpg">
+                    <div class="radio-input">
+                        <input id="card" type="radio" name="payment">
+                        Pay Rs 340.00 with Paytm
+                      </div>
+                </label>
+            </div>
+            <div class="card-details">
+            <div class="column-1">
+                <h2 class="card">Card Details</h2>
+                <input class="cardholder" type="text" name="cardholder" placeholder="Cardholder's Name"><br>
+                <label class="cardlabel">Cardholder's Name</label>
+                <div class="small-inputs">
+                    <div>
+                        <input type="text" id="date" placeholder="MM/YY">
+                        <label for="date" class="validthru">Valid thru</label>
+                        
+                    </div>
+                    <div>
+                        <input type="password" name="" id="varification" size="3" maxlength="3">
+                        <label for="varification" class="cvvlabel">CVV / CVC</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="column-2">
+                <input type="password" id="card-number">
+                <label for="card-number" class="cardnumberlabel">Card Number</label>
+                <span class="info">
+                    "* CVV or CVC is the card security code unique three digit number on the back of your card  separated from its number. "
+                </span>
+            </div>
+        </div>
+            <!--<div class="input-fields">
+                <div class="column-1">
+                    <h2 class=card-details>Card Details</h2>
+                    <input type="text" id="cardholder" placeholder="Cardholder's Name"/>
+
+                    <div class="small-inputs">
+                        <div>
+                            <label for="date">Valid thru</label>
+                            <input type="text" id="date" placeholder="MM / YY"/>
+                        </div>
+                        <div>
+                            <label for="Varification">CVV / CVC</label>
+                            <input type="password" id="Varification" size="3" maxlength="3"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-2">
+                    
+                    <input type="password" id="cardnumber">
+
+                    <span class="info">* CVV or CVC is the card security code unique three digit number on the back of your card  separated from its number. </span>
+                </div>
+            </div>-->
+
+        
+            <h2 id="coustomer">Are you beginner ?</h2>
+            <label class="radio">
+                <input class="radio-two" type="radio" name="">
+                <span class="checkmark">Yes</span>
+            </label>
+            <label class="radio">
+                <input class="radio-two" type="radio" name="">
+                <span class="checkmark">No</span>
+            </label>
+
+            <button type="submit">Pay</button>
+
+
+
+        </form>
+        </div>
+    </div>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="index3.html" >2</a>
+        <a href="index4.html">3</a>
+        <a href="index5.html">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>
+</body>
+</html>

@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background-image: url("C:/Users/inndnir/Desktop/LEARN UI/LOGIN PAGES/Login Type 3/imgs/booksBG.jpg");*/
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 2rem;
+}
+
+.regform{
+    width: 800px;
+    background-color: rgb(0,0,0,0.5);
+    margin:auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.main{
+    background-color: rgb(0,0,0,0.5);
+}
+#name{
+    width: 100%;
+    height: 100px;
+    margin-top: 1rem;
+    padding-top: 2rem;
+
+}
+
+.name{
+    margin-left: 25px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firstname{
+    position: relative;
+    left: -90px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.lastname{
+    position: relative;
+    left: 160px;
+    top:-80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555555;
+}
+
+.firstlabel{
+    position: relative;
+    columns: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    top: -40px;
+    left: -12px;
+}
+.lastlabel{
+    position: relative;
+    columns: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    top: -40px;
+    left:-80px;
+}
+
+.company{
+    position: relative;
+    left:39px;
+    top: -37px;
+    line-height: 40px;
+    width: 455px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.email{
+    position: relative;
+    left:39px;
+    top: -37px;
+    line-height: 40px;
+    width: 462px;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.code{
+    position: relative;
+    left:133px;
+    top: -37px;
+    line-height: 40px;
+    width: 95px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.number{
+    position: relative;
+    left:54px;
+    top: -37px;
+    line-height: 40px;
+    width: 310px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.area-code{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -10px;
+    top:-4px;
+}
+
+.phone-number{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: -303px;
+    top:-4px;
+}
+
+.options{
+    position: relative;
+    left:40px;
+    top: -37px;
+    line-height: 40px;
+    width: 510px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    margin-top: 1.5rem;
+}
+
+.options option{
+    font-size: 20px;
+}
+h3{
+    background-color: gray;
+    margin:1rem 0;
+    padding: 0.5rem;
+    box-shadow: 0 1px 1px 0 rgba(193, 202, 185, 0.966);
+
+}
+ #coustomer{
+     
+    color: #dabe71;
+    font-size: 17px;
+ }
+
+ .radio{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top: 12px;
+    color: white;
+ }
+
+ .radio input{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+
+ }
+
+ 
+ button{
+    background-color: orange;
+    display: block;
+    margin: 20px 0px 0 300px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid orange;
+    padding: 10px 55px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+ }
+
+ button:hover{
+     background-color: rgb(255, 123, 0);
+ }
+
+ .payment-method {
+    display: flex;
+    margin-bottom: 30px;
+    padding:10px 80px;
+    justify-content: space-around;
+
+  }
+
+  .card-logos img{
+    height: 3.5rem;
+    width: 4rem;
+  }
+  .method-paytm img{
+      height: 3.5rem;
+      width:4.2rem;
+  }
+.radio-input{
+    padding-left:55px;
+}
+div[class*='column']{
+    width:355px;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-between;
+}
+  .card{
+    margin-left: 25px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .cardholder{
+    background: url(../imgs/login.png) no-repeat 95%;
+    background-color: white;
+    position: relative;
+    left: 120px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 15px;
+  }
+
+  .small-inputs #date{
+    font-size: 16px;
+    width: 29%;
+    line-height: 35px;
+    padding: 0 10px;
+    position: relative;
+    left: 95px;
+    top: -11px;
+    border-radius: 5px;
+  }
+    .validthru{
+        position: relative;
+        top: 20px;
+        left: -30px;
+  }
+
+  .small-inputs #varification{
+    position: relative;
+    left: 230px;
+    top: -49px;
+    font-size: 16px;
+    width: 25%;
+    line-height: 34px;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+
+  .cvvlabel{
+    position: relative;
+    left: 134px;
+    top: -20px;
+  }
+
+  #card-number{
+    background: url("../imgs/card.png") no-repeat 95%;
+    background-color: white;
+    position: relative;
+    left: -18px;
+    top: -17px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+  }
+  .cardlabel{
+    position: relative;
+    text-transform: capitalize;
+    top: -35px;
+    left: 75px;
+  }
+  .cardnumberlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 15px;
+    top: 15px;
+    left: -257px;
+  }
+
+  .info{
+    position: relative;
+    top: 30px;
+    left: -22px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: row wrap;
+    width: 75%;
+    color: #b5afaf;
+  }
+ .pagination{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding:10px;
+}
+ .pagination a {
+    
+    padding:10px;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}

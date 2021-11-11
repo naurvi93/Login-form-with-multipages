@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Types of Table</title>
+
+    <!-- custom Stylesheet-->
+    <link rel="stylesheet" href="./css/Stylepage2.css">
+    
+    
+</head>
+<body>
+    <div class="first-table">
+    <span>This table is with box borders and stripped</span>
+    <table class="table-1 table-sortable">
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Marks</th>
+            <th>Status</th>
+        </thead>
+    <tbody>
+        <tr>
+            <td data-label="S.No">1</td>
+            <td data-label="Name">Albert</td>
+            <td data-label="Age">38</td>
+            <td data-label="Marks">80%</td>
+            <td data-label="Status">Passed</td>
+        </tr>
+        <tr>
+            <td data-label="S.No">2</td>
+            <td data-label="Name">Alex</td>
+            <td data-label="Age">25</td>
+            <td data-label="Marks">70%</td>
+            <td data-label="Status">Passed</td>
+        </tr>
+        <tr>
+            <td data-label="S.No">3</td>
+            <td data-label="Name">Tom</td>
+            <td data-label="Age">27</td>
+            <td data-label="Marks">68%</td>
+            <td data-label="Status">Passed</td>
+        </tr>
+        <tr>
+            <td data-label="S.No">4</td>
+            <td data-label="Name">Elena</td>
+            <td data-label="Age">22</td>
+            <td data-label="Marks">80%</td>
+            <td data-label="Status">Passed</td>
+        </tr>
+        <tr>
+            <td data-label="S.No">5</td>
+            <td data-label="Name">Alex</td>
+            <td data-label="Age">41</td>
+            <td data-label="Marks">42%</td>
+            <td data-label="Status">Failed</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<<div class="second-table">
+
+<table class="table-2">
+    <span>This is horizontal table</span>
+    <thead>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Marks</th>
+        <th>Status</th>
+    </thead>
+<tbody>
+    <tr>
+        <td data-label="S.No">1</td>
+        <td data-label="Name">Albert</td>
+        <td data-label="Age">38</td>
+        <td data-label="Marks">80%</td>
+        <td data-label="Status">Passed</td>
+    </tr>
+    <tr>
+        <td data-label="S.No">2</td>
+        <td data-label="Name">Alex</td>
+        <td data-label="Age">25</td>
+        <td data-label="Marks">70%</td>
+        <td data-label="Status">Passed</td>
+    </tr>
+    <tr>
+        <td data-label="S.No">3</td>
+        <td data-label="Name">Tom</td>
+        <td data-label="Age">27</td>
+        <td data-label="Marks">68%</td>
+        <td data-label="Status">Passed</td>
+    </tr>
+    <tr>
+        <td data-label="S.No">4</td>
+        <td data-label="Name">Elena</td>
+        <td data-label="Age">22</td>
+        <td data-label="Marks">80%</td>
+        <td data-label="Status">Passed</td>
+    </tr>
+    <tr>
+        <td data-label="S.No">5</td>
+        <td data-label="Name">Alex</td>
+        <td data-label="Age">41</td>
+        <td data-label="Marks">42%</td>
+        <td data-label="Status">Failed</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+
+<div class="third-table">
+
+    <table class="table-3">
+        <span>This is horizontal table</span>
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Marks</th>
+            <th>Status</th>
+        </thead>
+    <tbody>
+        <tr>
+            <td data-label="S.No">1</td>
+            <td data-label="Name">Albert</td>
+            <td data-label="Age">38</td>
+            <td data-label="Marks">80%</td>
+            <td data-label="Status">Passed</td>
+        </tr>
+        <tr>
+            <td data-label="S.No">2</td>
+            <td data-label="Name" colspan="3">Alex</td>
+            <td data-label="Status">Passed</td>
+        </tr>
+        <tr>
+            <td data-label="S.No">3</td>
+            <td data-label="Name">Tom</td>
+            <td data-label="Age">27</td>
+            <td data-label="Status" colspan="2">Passed</td>
+        </tr>
+        <tr>
+            <td data-label="S.No">4</td>
+            <td data-label="Name">Elena</td>
+            <td data-label="Age">22</td>
+            <td data-label="Marks" rowspan="2">80%</td>
+            <td data-label="Status">Passed</td>
+        </tr>
+        <tr>
+            <td data-label="S.No">5</td>
+            <td data-label="Name">Alex</td>
+            <td data-label="Age">41</td>
+            <td data-label="Status">Failed</td>
+        </tr>
+    </tbody>
+    </table>
+    </div>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="index3.html" >2</a>
+        <a href="index4.html">3</a>
+        <a href="index5.html">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+      </div>
+    <script src="./js/tablesort.js"></script>
+</body>
+
+</html>
